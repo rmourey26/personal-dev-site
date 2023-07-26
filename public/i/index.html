@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robert Mourey Jr - Web 2 || 3 Engineer</title>
+  <!-- Link our CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <!-- Header content with avatar and basic info -->
+    </header>
+    <section>
+      <h2>My Coding Activity & Stats</h2>
+
+      <!-- Summary widget -->
+      <codersrank-summary username="rmourey26" show-header="false"></codersrank-summary>
+
+      <!-- Activity widget -->
+
+      <codersrank-activity username="rmourey26" legend="false" labels tooltip step="5" ></codersrank-activity>
+      
+      <!-- Skills chart widget -->
+
+      <codersrank-skills-chart
+  username="rmourey26"
+  labels
+  tooltip
+  skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML"
+  svg-width="1120"
+  svg-height="400"
+></codersrank-skills-chart>
+
+    </section>
+    <section>
+      <h2>Recent Projects</h2>
+
+      <!-- Portfolio widget -->
+      <codersrank-portfolio
+  username="rmourey26"
+  grid
+  company="false"
+></codersrank-portfolio>
+      
+    </section>
+    <section>
+      <h2>Work Experience & Education</h2>
+
+      <!-- Work experience widget -->
+      <codersrank-work-experience
+  username="rmourey26"
+  logos
+></codersrank-work-experience>
+
+      <!-- Education widget -->
+      <codersrank-education
+  username="rmourey26"
+></codersrank-education>
+    </section>
+
+    <footer>
+      <!-- Generic footer copy -->
+    </footer>
+  </main>
+   <!-- ... -->
+
+   <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+   <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+   <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+   <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+   <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+</body>
+</html>
